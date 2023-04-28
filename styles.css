@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282C32;
+    color: white;
+    text-align: left;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.right-side,
+.left-side {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 300px;
+}
+
+.illustration {
+    max-width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+.description {
+    font-size: 18px;
+    text-align: start; 
+    margin-bottom: 20px;
+    line-height: 1.5;
+
+
+}
+
+.right-side {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-form {
+    /* background-color: #444;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%; */
+}
+
+.sign-up-form h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 48px;
+    background: linear-gradient(135deg, #60A9FF, #d087FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sign-up-form input[type="email"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+    color: #333;
+}
+
+.sign-up-form button[type="submit"] {
+    background: linear-gradient(135deg, #60A9FF, #d087FF);
+    border: none;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+
+}
+.copyright {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+header {
+    background-color: #282C32;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    position:sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav div {
+    color: #60A9FF;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+ 
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+.underlogo{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.6;
+    background-color: #333;
+    color:bisque;
+    font-size: 60px;
+}
